@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ab736b39263f4501793e39abd9c4b129360bdd18f117d6de0c6d8082021a2885.html">Verification Successful</a></span>
+                > <span class="truncate-60"><a
+                    href="b37b61dc0615e4a8e6be4b879b72d2752a8f55f1f68e335a7a4987cd66a47db1.html">check message when url is invalid </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-02-2022 11:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verification Successful </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a registered user, I want to verify the completion of the Block Validation screen.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8b8e8caa53ffa3185ce9ad4fa40caa855e977c586fa990a927423cc80ef7ee16.html">Scenario5
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">check message when url is invalid
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Given that dayana wants to validate the message of the url
+| StrUser | StrPassword |
+| demo | demo |" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Dayana open up" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Dayana opens the Page color lib" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Dayana open up (completed)" width="1366"/>
+                <img src="e300bdb0666d4c33b7c4c60a4a52e1a6768272163d7e2054b03be118800550f8.png" title=" Dayana login colorlib" width="1366"/>
+                <img src="e300bdb0666d4c33b7c4c60a4a52e1a6768272163d7e2054b03be118800550f8.png" title=" Dayana enters 'demo' into Campo para ingresar el usuario" width="1366"/>
+                <img src="ba1faa1e19a48bca21cc0c8c9cfd3a560659b2a3f207d91448d0bcee62df5fb8.png" title=" Dayana enters 'demo' into Campo para ingresar la contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="433014277ef06ee214f0fcd388ba381bdccaf82e80762ac74f77d36b22777997.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para ingresar" width="1366"/>
+                <img src="433014277ef06ee214f0fcd388ba381bdccaf82e80762ac74f77d36b22777997.png" title=" Dayana login colorlib (completed)" width="1366"/>
+                <img src="433014277ef06ee214f0fcd388ba381bdccaf82e80762ac74f77d36b22777997.png" title=" Given that dayana wants to validate the message of the url
+| StrUser | StrPassword |
+| demo | demo | (completed)" width="1366"/>
+                <img src="a84975ce7c345eddd9fad2436a811110689d21d81d3a269f7a89e8ff96b02919.png" title=" When she saves the form with invalid url
+| strRequired | strEmail | strPasswordValidation | strConfirmPassword | strDate | strUrl | strDigitiesOnly | strRango |
+| admin1 | dasg@correo.com | 12355 | 12355 | 12062022 | testing.com | 33 | 7 |" width="1366"/>
+                <img src="a84975ce7c345eddd9fad2436a811110689d21d81d3a269f7a89e8ff96b02919.png" title=" Dayana enter forms data" width="1366"/>
+                <img src="a84975ce7c345eddd9fad2436a811110689d21d81d3a269f7a89e8ff96b02919.png" title=" Dayana clicks on Desplegable para ir a los formularios" width="1366"/>
+                <img src="29f9992613ca57951b2b1e2e9957b10b5d238684338ae00f49488d367ddaab9d.png" title=" Dayana clicks on Desplegable para ir a los formularios" width="1366"/>
+                <img src="004e8b701f7554fd1abe99225d366774e9b7f7b0e27e648c6666d00a7cd9f2e9.png" title=" Dayana enters 'admin1' into Campo para ingresar el nombre" width="1366"/>
+                <img src="46965a9f1cb38f6d5f5acd30cb0a68765350650003c11e0ded31b068bb4c1b80.png" title=" Dayana enters 'dasg@correo.com' into Campo para ingresar el email" width="1366"/>
+                <img src="02521bdc33c75912f831e1a8542751e4c74c59078828f070647b166a187262ce.png" title=" Dayana enters '12355' into Campo para ingresar la clave" width="1366"/>
+                <img src="36b868882e7623e13e73f9915d0faf829a3eede9223370565501879faf488f9f.png" title=" Dayana enters '12355' into Campo para confirmar la clave" width="1366"/>
+                <img src="96d44a837af78b5b9f0a425878f677fd5e4063312d3e761ecb4ab6c6d07ac241.png" title=" Dayana enters '12062022' into Campo para ingresar la fecha" width="1366"/>
+                <img src="e324496cb58f83ffd47ee57bdbf4ff07308c44ca00b1f7e6833c88716253681d.png" title=" Dayana enters 'testing.com' into Campo para ingresar la Url" width="1366"/>
+                <img src="609cc8dc4ab27571be8975130511e828ecdc126571369701b3801a94314bab9d.png" title=" Dayana enters '33' into Campo para ingresar los digitos" width="1366"/>
+                <img src="2cb5b20ce21f491ae574b483e8fada22b5ba43f20eb2f1c38b9a069c02a64c4f.png" title=" Dayana enters '7' into Campo para ingresar el rango" width="1366"/>
+                <img src="c66d506c89f0be0adaf488a5abd36b2d3bea5889893e652371becaca254f4b21.png" title=" Dayana clicks on Marcamos para aceptar las politicas" width="1366"/>
+                <img src="14533ce89713e8af937a8f73b9f43d6656bf701207b7352bb179835d1c684379.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para validar" width="1366"/>
+                <img src="14533ce89713e8af937a8f73b9f43d6656bf701207b7352bb179835d1c684379.png" title=" Dayana enter forms data (completed)" width="1366"/>
+                <img src="36d2b428953e19d2dcb605239d323fc56b29e524ab14ead63ff9cd07974b6fa4.png" title=" When she saves the form with invalid url
+| strRequired | strEmail | strPasswordValidation | strConfirmPassword | strDate | strUrl | strDigitiesOnly | strRango |
+| admin1 | dasg@correo.com | 12355 | 12355 | 12062022 | testing.com | 33 | 7 | (completed)" width="1366"/>
+                <img src="14533ce89713e8af937a8f73b9f43d6656bf701207b7352bb179835d1c684379.png" title=" Then check the message of the invalid url
+| srtInvalidUrls |
+| Please enter a valid URL. |" width="1366"/>
+                <img src="14533ce89713e8af937a8f73b9f43d6656bf701207b7352bb179835d1c684379.png" title=" Then url" width="1366"/>
+                <img src="36d2b428953e19d2dcb605239d323fc56b29e524ab14ead63ff9cd07974b6fa4.png" title=" Then check the message of the invalid url
+| srtInvalidUrls |
+| Please enter a valid URL. | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

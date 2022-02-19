@@ -1,0 +1,22 @@
+
+a
+java:S1854"FRemove this useless assignment to local variable "text_range_Message".(€¨İøÿÿÿÿ
+l
+java:S1854"QRemove this useless assignment to local variable "text_confirm_password_Message".(Ã¨ªüÿÿÿÿ
+]
+java:S1481"BRemove this unused "text_confirm_password_Message" local variable.(Ã¨ªüÿÿÿÿ
+R
+java:S1481"7Remove this unused "text_range_Message" local variable.(€¨İøÿÿÿÿ
+c
+java:S1126""AReplace this if-then-else statement by a single return statement.(Íçöùÿÿÿÿ8³ËÒñ/
+f
+java:S1764&"KCorrect one of the identical sub-expressions on both sides of operator "&&"(³›íÕùÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áú©öøÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¯ÊÄûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤•¹ºûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¨ªüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ø½ıÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÀ·õ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ãÚ¼ûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¨İøÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£“‚÷ûÿÿÿÿ
